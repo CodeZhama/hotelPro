@@ -3683,6 +3683,9 @@ header.main-header.header-style-one.fixed-header.menu_fixed {
   height: 100%;
 }
 
+.border__project__img {
+  border-radius: 5px;
+}
 .default-section .column .inner .author-info h4 {
   position: relative;
   color: #f2f2f2;
