@@ -2405,7 +2405,6 @@ header.main-header.header-style-one.fixed-header.menu_fixed {
   color: #000000 !important;
 }
 
-
 .team-member:hover .lower-box {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
@@ -4413,11 +4412,6 @@ header.main-header.header-style-one.fixed-header.menu_fixed {
   width: 70px;
 }
 
-.testimonial-style-two .author-info .author-thumb img {
-  display: block;
-  width: 100%;
-}
-
 .testimonial-style-two .author-info h4 {
   font-size: 18px;
   font-weight: 600;
@@ -5416,6 +5410,16 @@ header.main-header.header-style-one.fixed-header.menu_fixed {
   height: 100%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
+}
+.founder__img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+  object-fit: cover !important;
+}
+.hotel__pro__about {
+  font-size: 25px;
+  margin-bottom: 40px;
 }
 
 .page-title .auto-container {
