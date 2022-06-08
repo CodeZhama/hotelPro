@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>HotelPro</title>
+    <title>Consultant HTML5 Responsive Template</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/revolution-slider.css" rel="stylesheet" />
@@ -48,89 +48,6 @@
 
   <body class="home layout_changer">
     <!-- ==================== Style Switcher ==================== -->
-    <div class="switcher">
-      <!-- Switcher button -->
-      <div class="switch_btn">
-        <button><i class="fa fa-cog fa-spin"></i></button>
-      </div>
-
-      <!-- switcher body -->
-      <div class="switch_menu">
-        <h5 class="title">Style Switcher</h5>
-
-        <!-- Theme layout -->
-        <div class="switch_body">
-          <div class="switcher_container">
-            <h5>Layout Style</h5>
-            <div class="box" id="full_width">
-              <div></div>
-              <p>Fullwidth</p>
-            </div>
-            <div class="box" id="boxed">
-              <div><span></span></div>
-              <p>Boxed</p>
-            </div>
-          </div>
-        </div>
-        <!-- /switch_body -->
-
-        <!-- Switch Navigation menu Sticky/Static -->
-        <div class="switch_navigation">
-          <div class="switcher_container">
-            <h5>Navigation</h5>
-            <p>Sticky</p>
-            <div class="onoffswitch" id="sticky_switch">
-              <input
-                type="checkbox"
-                name="onoffswitch"
-                class="onoffswitch-checkbox"
-                id="myonoffswitch"
-                checked
-              />
-              <label class="onoffswitch-label" for="myonoffswitch"></label>
-            </div>
-            <p>Static</p>
-          </div>
-        </div>
-        <!-- /switch_navigation -->
-
-        <!-- Theme color changer -->
-        <div class="switcher_container">
-          <h5>Color Skins</h5>
-          <ul id="styleOptions" title="switch styling">
-            <li>
-              <a
-                href="javascript: void(0)"
-                data-theme="theme-1"
-                class="color2"
-              ></a>
-            </li>
-            <li>
-              <a
-                href="javascript: void(0)"
-                data-theme="theme-3"
-                class="color3"
-              ></a>
-            </li>
-            <li>
-              <a
-                href="javascript: void(0)"
-                data-theme="theme-4"
-                class="color4"
-              ></a>
-            </li>
-            <li>
-              <a
-                href="javascript: void(0)"
-                data-theme="theme-5"
-                class="color5"
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- /switch_menu -->
-    </div>
 
     <!-- ==================== Style Switcher ==================== -->
 
@@ -220,8 +137,10 @@
                             <li><a href="team.html">Our Team</a></li>
                           </ul>
                         </li>
-                        <li class=""><a href="services.html">Services</a></li>
-                        <li class="current"><a href="projects.html">Projects</a></li>
+                        <li class="current">
+                          <a href="services.html">Services</a>
+                        </li>
+                        <li class=""><a href="projects.html">Projects</a></li>
                         <li class=""><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                       </ul>
@@ -273,12 +192,12 @@
                         <li><a href="team.html">Our Team</a></li>
                       </ul>
                     </li>
-                    <li><a href="services.html">Services</a></li>
                     <li class="current">
-                      <a href="projects.html">Projects</a>
+                      <a href="services.html">Services</a>
                     </li>
+                    <li class=""><a href="projects.html">Projects</a></li>
 
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                   </ul>
                 </div>
@@ -297,261 +216,162 @@
         style="background-image: url(images/background/bg-page-title-1.jpg)"
       >
         <div class="auto-container">
-          <h1>Projects</h1>
+          <h1>Service Details</h1>
           <div class="bread-crumb-outer">
             <ul class="bread-crumb clearfix">
               <li><a href="index.html">Home</a></li>
-              <li class="active">Projects</li>
+              <li><a href="services.html">Services</a></li>
+              <li class="active">Service Details</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!--Gallery Section-->
-      <section class="gallery-section">
+      <!--Sidebar Page-->
+      <div class="sidebar-page-container with-left-sidebar">
         <div class="auto-container">
-          <div class="text-center">
-            <ul class="post-filter list-inline">
-              <li class="active" data-filter=".default-portfolio-item">
-                <span>View All</span>
-              </li>
-            
-            </ul>
-          </div>
-
-          <div class="row grid clearfix masonary-layout filter-layout">
-            <!--Default Portfolio Item-->
+          <div class="row clearfix">
+            <!--Content Side-->
             <div
-              class="default-portfolio-item Growth col-lg-4 col-md-4 col-sm-6 col-xs-12"
+              class="content-side pull-right col-lg-9 col-md-8 col-sm-12 col-xs-12"
             >
-              <div class="inner-box">
-                <a
-                  href="project-single.html"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/262942816-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Financial Service</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
+              <!--Service Details-->
+              <section class="service-details">
+                <figure class="big-image">
+                  <img src="images/resource/featured-image-9.jpg" alt="" />
+                </figure>
 
-            <!--Default Portfolio Item-->
+                <!--Text Content-->
+                <div class="content">
+                  <h3>Business Solution</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur libero enim, lacinia finibus ante et, imperdiet
+                    finibus risus. Donec malesuada luctus elit nec hendrerit.
+                    Integer ex sap ien, eleifend sit amet tellus ut, porttitor
+                    dictum velit. Nulla scelerisque, nisl eu maximus bibendum
+                    nibh risus eleifend ex, id dapibus leo dui in nulla. Donec
+                    sollicitudin molestie erat sit amet elementum. Donec at
+                    lacinia massa, eu hen rit ex. Donec hendrerit, porttitor.
+                  </p>
+
+                  <p>
+                    ex orci sollicitudin dolor, et scelerisque sem ex in
+                    nisi.Nulla pulvinar vitae arcu at cursus. Class aptent
+                    taciti sociosqu ad litora torquent per co Curabitur accumsan
+                    mauris vitae leo tempus, ac sceleri sque massa elementum. In
+                    blandit fringilla tincidunt. Proin commodo tortor vitae is
+                    nisi. Etiam accumsan massa volutpat tellus
+                  </p>
+                  <h3>Marketing STRATEGY</h3>
+                  <div class="row clearfix">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elitazaa. fsdssd Curabitur libero eni lacinia finibus
+                        ante et, imaperdiet finibus risus. Donec malesuadaluctus
+                        elit naaacec hendrerit. Integer ex sap ien, ds eleifend
+                        sit amet tellus ut, porttitor dict um velit. Nulla dssd
+                        ads scelerisque, nisl euasaszz maximus bibendum nibh
+                        risus eleifen ex, a nulla.
+                      </p>
+                    
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                      <!--Graph Chart-->
+                      <div class="chart-outer">
+                        <div
+                          id="Chart1"
+                          style="height: 270px; width: 100%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Faqs-->
+                  <div class="faqs">
+                    <!--Accordion Box-->
+                    
+                    <!--End Accordion Box-->
+                  </div>
+                </div>
+              </section>
+            </div>
+            <!--Content Side-->
+
+            <!--Sidebar-->
             <div
-              class="default-portfolio-item Consulting Marketing col-lg-4 col-md-4 col-sm-6 col-xs-12"
+              class="sidebar-side pull-left col-lg-3 col-md-4 col-sm-12 col-xs-12"
             >
-              <div class="inner-box">
-                <a
-                  href="images/gallery/2.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/xxxl-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Audi & Assurance</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
+              <aside class="sidebar">
+                <!-- Services -->
 
-            <!--Default Portfolio Item-->
-            <div
-              class="default-portfolio-item Finance col-lg-4 col-md-4 col-sm-6 col-xs-12"
-            >
-              <div class="inner-box">
-                <a
-                  href="images/gallery/3.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/qushbegi-plaza-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Business Growth</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
+                <!-- Downloads -->
 
-            <!--Default Portfolio Item-->
-            <div
-              class="default-portfolio-item Marketing Growth col-lg-4 col-md-4 col-sm-6 col-xs-12"
-            >
-              <div class="inner-box">
-                <a
-                  href="images/gallery/4.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/218450953-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Latest Technology</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
+                <!-- Recent Posts -->
+                <div class="sidebar-widget popular-posts">
+                  <div class="sidebar-title">
+                    <h3 class="sec__title__item">Recent news</h3>
+                  </div>
 
-            <!--Default Portfolio Item-->
-            <div
-              class="default-portfolio-item Marketing Finance col-lg-4 col-md-4 col-sm-6 col-xs-12"
-            >
-              <div class="inner-box">
-                <a
-                  href="https://hotelpro.uz/wp-content/uploads/2021/06/orig-640x640.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/209777711-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Financial Service</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
+                  <article class="post">
+                    <figure class="post-thumb">
+                      <a href="blog-single.html"
+                        ><img src="images/resource/author-thumb-1.jpg" alt=""
+                      /></a>
+                    </figure>
+                    <div class="text">
+                      <a href="#" class="sec__title__item">Proffesional solutions for your business.</a>
+                    </div>
+                    <ul class="post-meta clearfix">
+                      <li><a href="#">Jan 30, 2017 </a></li>
+                      <li>
+                        <a href="#"
+                          ><span class="fa fa-commenting-o"></span> 2
+                          Comments</a
+                        >
+                      </li>
+                    </ul>
+                  </article>
 
-            <!--Default Portfolio Item-->
-            <div
-              class="default-portfolio-item Growth col-lg-4 col-md-4 col-sm-6 col-xs-12"
-            >
-              <div class="inner-box">
-                <a
-                  href="images/gallery/6.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/240349973-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Financial Service</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
+                  <article class="post">
+                    <figure class="post-thumb">
+                      <a href="blog-single.html"
+                        ><img src="images/resource/author-thumb-2.jpg" alt=""
+                      /></a>
+                    </figure>
+                    <div class="text">
+                      <a href="#" class="sec__title__item">Money Market Rates Finding in 2017</a>
+                    </div>
+                    <ul class="post-meta clearfix">
+                      <li><a href="#">Feb 18, 2017 </a></li>
+                      <li>
+                        <a href="#"
+                          ><span class="fa fa-commenting-o"></span> 8
+                          Comments</a
+                        >
+                      </li>
+                    </ul>
+                  </article>
+                </div>
 
-            <!--Default Portfolio Item-->
-            <div
-              class="default-portfolio-item Consulting Finance Marketing col-lg-4 col-md-4 col-sm-6 col-xs-12"
-            >
-              <div class="inner-box">
-                <a
-                  href="images/gallery/10.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/220081201-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Good Performence</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
+                <!-- Popular Tags -->
+                <div class="sidebar-widget popular-tags">
+                  <div class="sidebar-title"><h3 class="sec__title__item">Tags</h3></div>
+                  <a href="#">Audit</a>
+                  <a href="#">Business</a>
+                  <a href="#">News</a>
+                  <a href="#">Button</a>
+                  <a href="#">Money</a>
+                  <a href="#">Finance</a>
+                  <a href="#">Consulting</a>
+                </div>
+              </aside>
             </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="default-portfolio-item Marketing Growth col-lg-4 col-md-4 col-sm-6 col-xs-12"
-            >
-              <div class="inner-box">
-                <a
-                  href="images/gallery/11.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/photo_2019-09-05_11-06-43-640x640.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Customer Insights</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="default-portfolio-item Growth Finance col-lg-4 col-md-4 col-sm-6 col-xs-12"
-            >
-              <div class="inner-box">
-                <a
-                  href="images/gallery/12.jpg"
-                  class="lightbox-image option-btn"
-                  title="Image Caption Here"
-                  data-fancybox-group="example-gallery"
-                >
-                  <figure class="effect-bubba">
-                    <img src="https://hotelpro.uz/wp-content/uploads/2021/06/photo_2019-03-22_15-08-28.jpg" alt="image" />
-                    <figcaption>
-                      <div class="content">
-                        <h2>Sustainability</h2>
-                        <p>Ownership advisor grail testing innovator.</p>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <br />
-          <!-- Styled Pagination -->
-          <div class="styled-pagination text-center">
-            <ul class="clearfix">
-              <li>
-                <a href="#"><span class="fa fa-angle-left"></span></a>
-              </li>
-              <li><a href="#"class="active">1</a></li>
-              <li>
-                <a href="#"><span class="fa fa-angle-right"></span></a>
-              </li>
-            </ul>
+            <!--Sidebar-->
           </div>
         </div>
-      </section>
+      </div>
 
       <footer class="main-footer">
         <!--Footer Upper-->
@@ -732,7 +552,10 @@
     <script src="js/owl.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/appear.js"></script>
-    <script src="js/isotope.js"></script>
     <script src="js/script.js"></script>
+
+    <!--Chart-->
+    <script src="js/canvasjs.min.js"></script>
+    <script src="js/charts-script.js"></script>
   </body>
 </html>
